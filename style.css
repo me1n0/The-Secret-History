@@ -182,14 +182,19 @@
 }
 .contact-div .social-media {
     background-color: transparent;
+    border: 0px solid green;
+    margin: 0;
 }
 .contact-div a {
     background: transparent;
-    margin: 0 0.3rem 0 0.3rem;
+    padding: 0 0.3rem 0 0.3rem;
     border: none;
 }
 .contact-div .text-div {
     width: 45rem;
+}
+.contact-div img {
+    width: 24px;
 }
 .bottom-div {
     display: flex;
