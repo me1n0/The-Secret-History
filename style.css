@@ -186,6 +186,7 @@
 .contact-div a {
     background: transparent;
     margin: 0 0.3rem 0 0.3rem;
+    border: none;
 }
 .contact-div .text-div {
     width: 45rem;
