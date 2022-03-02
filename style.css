@@ -97,8 +97,11 @@
 }
 
 @media (max-width: 700px) {
+    .menu-li {
+        margin: 0 1.5rem 0.35rem 1.5rem;
+    }
     .main-div {
-        margin-top: 7rem;
+        margin-top: 2rem;
         display: grid;
         grid-template-columns: 90%;
         grid-auto-rows: minmax(150px,auto);
@@ -114,21 +117,24 @@
         grid-row: span 1;
     }
     .box2 img {
-        width: 21rem;
-        margin: 10px 0 10px 0;
+        width: 18rem;
+        margin: 20px 0 10px 0;
+    }
+    .box2 {
+        display: flex;
+        justify-content: center;
     }
     .box3 {
-        border: 0px solid firebrick;
+        display: flex;
+        justify-content: center;
     }
     .box3 button {
         background: linear-gradient(to right, #947f60, #807460, #6e6e6e);
         border: 0px;
         border-radius: 1.2rem;
-        font-size: 1.2rem;
-        letter-spacing: 3px;
-        width: 13rem;
-        height: 4rem;
-        margin-top: 10px;
+        font-size: 0.95rem;
+        width: 10rem;
+        height: 3.5rem;
     }
     .box3 button:hover {
         box-shadow: none;
